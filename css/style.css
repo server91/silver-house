@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #fff;
+    font-family:'Roboto',sans-serif; 
+}
+
+.container {
+    background: #fff;
+    padding: 0px 15px;
+
+}
+
+header img {
+    padding: 50px 0px 0px 0px;
+    margin-bottom: 50px;
+}
+
+.header {
+
+    margin: 0 auto;
+    display: flex;
+    width: 1110px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    width: 920px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+li a {
+    text-decoration: none;
+    color: #cccccc;
+
+}
+li a:hover{
+    border-bottom: 1px solid #4581b7;
+    color: #4581b7;
+    padding-bottom: 15px;
+}
+p{
+    font-size: 16px;
+    color: #7f7f7f;
+}
+
+.content {
+    display: flex;
+    width: 1110px;
+    margin: 30px auto;
+    height: 500px;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    width: 740px;
+    background: #f0f0f0;
+ 
+}
+.article  h3  {
+    margin-left: 40px;
+}
+.article p{
+    line-height: 1.6;
+    margin: 20px 100px 0 40px;
+}
+
+.sidebar {
+    margin-left: 30px ;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    background: #f0f0f0;
+  
+}
+.sidebar h3{
+    margin-left: 40px;
+}
+.sidebar a{
+    margin: 20px 0px 0px 40px;
+    color: #7f7f7f;
+}
+.sidebar a:hover{
+    color: #0000ff; 
+}
+.sidebar p{
+    line-height: 1.6;
+    margin: 20px 0px 0px 40px;  
+}
+.footer{
+    margin: 15px auto 0px;
+    padding-top:15px;
+    width: 1110px;
+    height: 150px;
+    display: flex;
+    background: #f0f0f0;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer a {
+    margin-left: 40px;
+}
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 40px;
+    color: #7f7f7f;
+}
+.phone{
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    align-items: flex-end;
+
+}
+h3{
+    margin: 50px 0px 20px 0px;
+    color: #4581b7;
+}
+
+  
